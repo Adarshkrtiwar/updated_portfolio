@@ -1,5 +1,3 @@
-
-
 const About = () => {
   return (
     <section id="about" className="about-section">
@@ -10,10 +8,27 @@ const About = () => {
           I love building scalable, user-friendly web applications that solve real-world problems.
           With a strong foundation in JavaScript and frontend architecture, I aim to create seamless digital experiences.
         </p>
+
         <div className="about-button-wrapper">
-          <a href="/resume.pdf" download className="about-button">
+          {/* ✅ DOWNLOAD Resume */}
+          <a
+            href="/Adarsh_resume_updated.pdf"
+            download
+            className="about-button"
+          >
             Download Resume
           </a>
+
+          {/* ✅ Optional: View Resume in new tab */}
+          {/* <a
+            href="/Adarsh_resume_updated.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="about-button"
+            style={{ marginLeft: "10px" }} // optional styling
+          >
+            View Resume
+          </a> */}
         </div>
       </div>
     </section>
