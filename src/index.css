@@ -283,7 +283,7 @@
   padding: 0 16px;
   height: 64px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -657,6 +657,15 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* optional, in case content overflows */
+}
+
+/* Mobile View - below 768px */
+@media (max-width: 768px) {
+  .navbar-container {
+    display: block; /* or 'initial' if you prefer that */
+    text-align: center; /* optional: centers content vertically */
+  }
 }
 
 /* Brand / Logo text */
@@ -807,4 +816,9 @@ html {
 
 .about-button:hover {
   background-color: #0056b3;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
