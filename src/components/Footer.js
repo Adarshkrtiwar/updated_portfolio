@@ -7,7 +7,7 @@ const Footer = () => {
         </p>
         <div className="footer-links">
           <a
-            href="https://github.com/adarsh7576061625"
+            href="https://github.com/Adarshkrtiwar"
             className="footer-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com/yourusername" // Update this if you want, or remove if no Twitter
+            href="https://twitter.com/adarshkrtiwari" // Update this if you want, or remove if no Twitter
             className="footer-link"
             target="_blank"
             rel="noopener noreferrer"

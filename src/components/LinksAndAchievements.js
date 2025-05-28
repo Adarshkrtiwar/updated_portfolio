@@ -8,7 +8,7 @@ const links = [
   },
   {
     name: "GitHub Profile",
-    url: "https://github.com/Adarshkrtiwar/portfolio",
+    url: "https://github.com/Adarshkrtiwar",
   },
   {
     name: "GitHub Portfolio",
